@@ -1,31 +1,31 @@
 {
-  "savedAt": "2026-06-05T06:58:57.848Z",
+  "savedAt": "2026-06-05T07:00:04.896Z",
   "groups": [
     {
-      "id": "7a7726ed-77d9-470b-b09d-ae8bf5d351ed",
+      "id": "99fcd941-7830-45c1-9918-a1bc258cbea4",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "b0574198-8d5d-4a98-8429-f22276ef1260",
+      "id": "0c2d9c70-a312-4033-8fb7-2de130a5ca76",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "01888c80-4f31-44fb-86c4-5a3a0297a968",
+      "id": "26d25349-9092-4837-aebf-a697029f8e05",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "052438da-edd5-4fc7-b56a-a0c198d62d29",
-      "title": "Morning Class Warning",
-      "description": "As a Student, I want to receive a warning when selecting classes that start at 8:00 AM, so that I can make better scheduling decisions.\n\nAcceptance Criteria:\n- The system identifies classes that start at 8:00 AM.\n- A warning message is displayed before the class is added.\n- Students may continue or cancel the selection.\n- The warning does not prevent enrollment if the student confirms.\n- PASS: The warning appears whenever an 8:00 AM class is selected.\n- FAIL: No warning is displayed.",
-      "groupId": "b0574198-8d5d-4a98-8429-f22276ef1260",
+      "id": "15c6f9df-3c92-4126-ab5f-f53b76582056",
+      "title": "Manual Prerequisite Override",
+      "description": "As an Advisor, I want to manually override prerequisite requirements, so that students with approved exceptions can enroll in courses.\n\nAcceptance Criteria:\n- Advisors can access the prerequisite override function.\n- The advisor must provide a justification before confirming the override.\n- The override action is recorded in the audit log.\n- The affected student can subsequently add the course.\n- PASS: The override is applied and logged successfully.\n- FAIL: The override is not logged or the stu",
+      "groupId": "0c2d9c70-a312-4033-8fb7-2de130a5ca76",
       "status": "todo",
       "type": "User Story",
-      "priority": "Medium",
+      "priority": "High",
       "owner": ""
     }
   ],
