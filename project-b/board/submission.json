@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-05T09:48:06.743Z",
+  "savedAt": "2026-06-05T09:49:46.859Z",
   "groups": [
     {
       "id": "439fb480-dd96-474f-82b1-aa56607212ff",
@@ -22,6 +22,16 @@
       "id": "a64e4885-5ee1-464e-9f9c-d61aa752985a",
       "title": "University Email Registration",
       "description": "As a Student, I want to register using my university email address, so that only verified students can access the marketplace.\n\nAcceptance Criteria:\n- Registration requires a valid .edu email address.\n- The system verifies the email format.\n- Accounts with non-.edu emails are rejected.\n- PASS: A user with a valid .edu email can register successfully.\n- FAIL: A user with a non-.edu email can create an account.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "274d7286-5212-41f0-9d56-3aaf4a3099bc",
+      "title": "Barcode Item Listing",
+      "description": "As a Student, I want to scan a product barcode, so that item details can be filled automatically when creating a listing.\n\nAcceptance Criteria:\n- The camera can scan a barcode.\n- Item information is retrieved automatically when available.\n- Students can edit retrieved information before publishing.\n- PASS: Item details are populated after a successful scan.\n- FAIL: The system does not retrieve item information.",
       "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
       "status": "todo",
       "type": "User Story",
