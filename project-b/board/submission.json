@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-05T07:39:00.147Z",
+  "savedAt": "2026-06-05T09:48:06.743Z",
   "groups": [
     {
-      "id": "50ad22ab-1990-42ec-b3c0-da9033ff1026",
+      "id": "439fb480-dd96-474f-82b1-aa56607212ff",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "e8ea0da3-c9f4-4e9b-b72d-b058dc87e879",
+      "id": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "bf4cfd91-cf1e-48b3-ba06-1eff548ff1cd",
+      "id": "57ac42b2-52af-4acf-9569-b3a2c66b15d7",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "a64e4885-5ee1-464e-9f9c-d61aa752985a",
+      "title": "University Email Registration",
+      "description": "As a Student, I want to register using my university email address, so that only verified students can access the marketplace.\n\nAcceptance Criteria:\n- Registration requires a valid .edu email address.\n- The system verifies the email format.\n- Accounts with non-.edu emails are rejected.\n- PASS: A user with a valid .edu email can register successfully.\n- FAIL: A user with a non-.edu email can create an account.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "Security - Only users with a valid university .edu email address may register and access the marketplace.",
-    "nfr2": "Safety - The system should encourage secure transactions by requiring users to select approved safe exchange zones before arranging meetups.",
-    "nfr3": "Usability - Users should be able to create item listings quickly using barcode scanning with minimal manual data entry."
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
