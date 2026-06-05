@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-05T09:52:09.883Z",
+  "savedAt": "2026-06-05T09:54:02.971Z",
   "groups": [
     {
       "id": "439fb480-dd96-474f-82b1-aa56607212ff",
@@ -52,6 +52,16 @@
       "id": "0d6bb6e5-c7b4-4174-a10b-e82de65fee3b",
       "title": "Auction Listing",
       "description": "As a Student, I want to create an auction listing, so that buyers can compete by submitting bids.\n\nAcceptance Criteria:\n- Sellers can choose Auction as a listing type.\n- Buyers can submit bids.\n- The highest bid is displayed.\n- PASS: The highest bid updates after a valid bid is placed.\n- FAIL: Bids are not recorded correctly.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "20084c49-1c1c-4efc-ae70-3899ef16cb7d",
+      "title": "Manage Safe Exchange Zones",
+      "description": "As a Campus Safety Administrator, I want to manage approved safe exchange zones, so that students can meet in secure locations.\n\nAcceptance Criteria:\n- Administrators can add exchange zones.\n- Administrators can update exchange zones.\n- Administrators can remove exchange zones.\n- PASS: Changes made by administrators are visible to users.\n- FAIL: Updated exchange zones are not reflected in the system.",
       "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
       "status": "todo",
       "type": "User Story",
