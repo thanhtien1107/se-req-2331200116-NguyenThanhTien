@@ -21,7 +21,7 @@
     {
       "id": "112199a5-588b-4a20-8c73-b44af7aa0497",
       "title": "Build Academic Roadmap",
-      "description": "As a Student, I want to add courses to my academic roadmap, so that I can plan my degree progression and graduate on time.\n\nAcceptance Criteria:\n- Student can search and select a course from the catalog.\n- Student can add the course to an academic roadmap.\n- Added courses are displayed immediately in the roadmap.\n- The roadmap is saved successfully.\n- PASS: The selected course appears in the roadmap after saving.\n- FAIL: The course is not displayed or cannot be saved.",
+      "description": "As a Student, I want to add courses to my academic roadmap, so that I can plan my degree progression and graduate on time.\n\nAcceptance Criteria:\n- Student can search and select a course from the catalog.\n- Student can add the course to an Academic roadmap.\n- Added courses are displayed immediately in the roadmap.\n- The roadmap is saved successfully.\n- PASS: The selected course appears in the roadmap after saving.\n- FAIL: The course is not displayed or cannot be saved.",
       "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
       "status": "todo",
       "type": "User Story",
@@ -77,4 +77,5 @@
     "nfr2": "",
     "nfr3": ""
   }
+  
 }
