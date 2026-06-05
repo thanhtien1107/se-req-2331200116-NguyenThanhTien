@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-05T06:34:32.711Z",
+  "savedAt": "2026-06-05T06:46:18.993Z",
   "groups": [
     {
-      "id": "d7b94c97-d3b7-4f68-bad9-78e503b7dd0f",
+      "id": "1dc5cefe-ecbd-4345-9f5d-7779f44a3490",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "e91cec4e-d6c5-4743-9618-4340b6d32454",
+      "id": "dc3f891e-cc40-4337-b082-c79dc117263a",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "36e1dd99-b10b-4248-b8c5-c4227aa7b892",
+      "id": "6485a113-37b9-4d06-b7fc-9d71d77f9e6e",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "b34176f4-70f5-4a5d-ae31-feeaaf22bdba",
+      "title": "Build Academic Roadmap",
+      "description": "Acceptance Criteria:\n- Student can search and select a course from the catalog.\n- Student can add the course to a roadmap.\n- Added courses are displayed in the roadmap immediately.\n- The roadmap is saved successfully.\n- PASS: The selected course appears in the roadmap after saving.\n- FAIL: The course does not appear or is not saved.",
+      "groupId": "dc3f891e-cc40-4337-b082-c79dc117263a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": ""
+    }
+  ],
   "analysis": {
-    "ambiguity1": "Requirement: \"I want the app to warn me if I'm choosing a class that starts at 8:00 AM.\"\n\nWhy it is vague:\nIt lacks clear system boundaries and specific metrics. It does not define what the warning entails—whether it is a hard system block preventing enrollment, or a dismissible visual alert that the user can bypass.",
-    "ambiguity2": "Requirement: \"I want to be able to override the system manually if a student has special permission.\"\n\nWhy it is vague:\nThe term \"special permission\" is undefined. It does not specify the criteria for this permission, who has the authority to grant it, or how the system logically verifies this status before allowing the override.",
-    "conflictSolution": "Conflict:\nThe Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan their academic path several years in advance, even when future class availability is unknown.\n\nProposed Solution:\nThe system should support two planning modes. In Long-Term Planning Mode, students may add future courses regardless of current seat availability. In Registration Mode, the system must validate real-time enrollment data and prevent registration for classes that are already full. This allows strategic degree planning while maintaining accurate enrollment controls.",
-    "nfr1": "Security - Student data is sensitive; the system must ensure under no circumstances can a student view another student's schedule.",
-    "nfr2": "Usability - The system must provide an intuitive drag-and-drop calendar interface to solve the issue of the \"ugly\" course catalog.",
-    "nfr3": "Auditability - The system must securely log every instance an advisor manually overrides a prerequisite for audit purposes."
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
