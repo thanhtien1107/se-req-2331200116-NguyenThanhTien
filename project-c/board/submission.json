@@ -1,30 +1,50 @@
 {
-  "savedAt": "2026-06-05T10:25:58.811Z",
+  "savedAt": "2026-06-05T10:29:22.526Z",
   "groups": [
     {
-      "id": "2208fe85-1979-42c1-a975-436c67bab899",
+      "id": "711487e3-eb6a-43b0-a542-19f67bafe10f",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "4fb7e2d5-4eb7-4049-875b-af152d5d838c",
+      "id": "1e6fc039-5956-41d8-a949-5cd805799448",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6f46a471-f1b7-434d-91b8-1802ae17f86f",
+      "id": "635462a1-eca5-4904-9cb8-397e8501aa0a",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "8b182f58-61d4-4c2c-b0e3-d41e0642e793",
-      "title": "Promotional Notifications",
-      "description": "As a Marketing Administrator, I want to send promotional notifications to students, so that I can increase sales of daily specials.\n\nAcceptance Criteria:\n- Administrators can create promotional notifications.\n- Notifications can be scheduled for delivery.\n- Notifications are delivered to eligible users.\n- PASS: Scheduled notifications are delivered successfully.\n- FAIL: Notifications are not sent at the scheduled time.",
-      "groupId": "4fb7e2d5-4eb7-4049-875b-af152d5d838c",
+      "id": "4450d55b-3071-42fd-af22-c910a0b411f2",
+      "title": "Reliability",
+      "description": "Ensure the kitchen display system continues operating during temporary internet outages and synchronizes data automatically after reconnection.",
+      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
       "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "cccb2b15-e5f8-4501-9295-677576f8052a",
+      "title": "Usability",
+      "description": "Provide a fast and intuitive mobile ordering experience that minimizes the number of steps required to place an order.",
+      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "856af883-09e2-4ee6-b8d5-36a1b09d9249",
+      "title": "Performance",
+      "description": "Ensure menu updates such as Sold Out status changes are propagated to users immediately.",
+      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "status": "todo",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
