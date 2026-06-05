@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-05T06:57:13.708Z",
+  "savedAt": "2026-06-05T06:58:57.848Z",
   "groups": [
     {
-      "id": "fd02ea6f-97a3-461f-82e0-c8449d2cc6ff",
+      "id": "7a7726ed-77d9-470b-b09d-ae8bf5d351ed",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "c3b7d4f9-2efb-43de-9628-5e3da55aa0f4",
+      "id": "b0574198-8d5d-4a98-8429-f22276ef1260",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "873c22c0-33de-4de7-be5b-83763992c775",
+      "id": "01888c80-4f31-44fb-86c4-5a3a0297a968",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "a3ffee2c-0783-4802-b3c0-176522feaded",
-      "title": "Prerequisite Validation",
-      "description": "As a Student, I want the system to automatically validate course prerequisites, so that I do not accidentally select courses I am not eligible to take.\n\nAcceptance Criteria:\n- The system checks prerequisite requirements when a student adds a course.\n- A warning message is displayed if prerequisites are not satisfied.\n- Students can view which prerequisite is missing.\n- Courses with unmet prerequisites cannot be added to the roadmap unless an advisor override exists.\n- PASS: The system correctly",
-      "groupId": "c3b7d4f9-2efb-43de-9628-5e3da55aa0f4",
+      "id": "052438da-edd5-4fc7-b56a-a0c198d62d29",
+      "title": "Morning Class Warning",
+      "description": "As a Student, I want to receive a warning when selecting classes that start at 8:00 AM, so that I can make better scheduling decisions.\n\nAcceptance Criteria:\n- The system identifies classes that start at 8:00 AM.\n- A warning message is displayed before the class is added.\n- Students may continue or cancel the selection.\n- The warning does not prevent enrollment if the student confirms.\n- PASS: The warning appears whenever an 8:00 AM class is selected.\n- FAIL: No warning is displayed.",
+      "groupId": "b0574198-8d5d-4a98-8429-f22276ef1260",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
