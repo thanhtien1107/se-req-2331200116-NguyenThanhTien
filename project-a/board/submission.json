@@ -1,29 +1,29 @@
 {
-  "savedAt": "2026-06-05T06:28:29.872Z",
+  "savedAt": "2026-06-05T06:34:32.711Z",
   "groups": [
     {
-      "id": "b073d6f3-8e79-423a-a985-5b27beebe2e3",
+      "id": "d7b94c97-d3b7-4f68-bad9-78e503b7dd0f",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "c3e4306d-b8ee-4a95-8159-4fb0d8656f24",
+      "id": "e91cec4e-d6c5-4743-9618-4340b6d32454",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "7ce29c30-1925-4ba0-ac6d-0d97030695ba",
+      "id": "36e1dd99-b10b-4248-b8c5-c4227aa7b892",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
+    "ambiguity1": "Requirement: \"I want the app to warn me if I'm choosing a class that starts at 8:00 AM.\"\n\nWhy it is vague:\nIt lacks clear system boundaries and specific metrics. It does not define what the warning entails—whether it is a hard system block preventing enrollment, or a dismissible visual alert that the user can bypass.",
+    "ambiguity2": "Requirement: \"I want to be able to override the system manually if a student has special permission.\"\n\nWhy it is vague:\nThe term \"special permission\" is undefined. It does not specify the criteria for this permission, who has the authority to grant it, or how the system logically verifies this status before allowing the override.",
     "conflictSolution": "Conflict:\nThe Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan their academic path several years in advance, even when future class availability is unknown.\n\nProposed Solution:\nThe system should support two planning modes. In Long-Term Planning Mode, students may add future courses regardless of current seat availability. In Registration Mode, the system must validate real-time enrollment data and prevent registration for classes that are already full. This allows strategic degree planning while maintaining accurate enrollment controls.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security - Student data is sensitive; the system must ensure under no circumstances can a student view another student's schedule.",
+    "nfr2": "Usability - The system must provide an intuitive drag-and-drop calendar interface to solve the issue of the \"ugly\" course catalog.",
+    "nfr3": "Auditability - The system must securely log every instance an advisor manually overrides a prerequisite for audit purposes."
   }
 }
