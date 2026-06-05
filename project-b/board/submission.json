@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-05T07:36:11.681Z",
+  "savedAt": "2026-06-05T07:37:40.965Z",
   "groups": [
     {
-      "id": "a2ec964d-cbc1-4af7-9504-4bd309218e62",
+      "id": "f9b9314e-308f-42b8-b4c9-f4385e2a0fca",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "ca2a003f-1568-4f12-b50f-6de15db497e3",
+      "id": "d618dedb-8a5f-4225-8d24-d588757ce301",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "0dea06bd-6ad2-457e-8ee7-c17ce9b3de3a",
+      "id": "2b9d8fa5-b67d-4f92-8802-db4a2de918c2",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -20,8 +20,8 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "",
-    "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\"\n\nWhy it is vague:\nThe requirement does not define auction rules such as bidding duration, minimum bid increments, reserve prices, winner selection, or how ties are handled. These missing details make implementation unclear.",
-    "conflictSolution": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict:\nThe Student Union President wants the marketplace to collect a 2% transaction fee to support club activities. However, the University Legal Team states that the university cannot process payments or handle money transfers between students.\n\nProposed Solution:\nThe platform should not process payments directly. Instead, students complete payments using external services such as Venmo or cash. The marketplace may provide links to approved third-party payment providers, while any optional service fee is handled outside the university-operated platform through a separate Student Union process.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
