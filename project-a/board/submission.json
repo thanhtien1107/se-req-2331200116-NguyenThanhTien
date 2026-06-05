@@ -1,70 +1,50 @@
 {
-  "savedAt": "2026-06-05T07:04:26.189Z",
+  "savedAt": "2026-06-05T07:14:01.193Z",
   "groups": [
     {
-      "id": "3fbd2c6b-29cf-4466-b938-615e289f703b",
+      "id": "555604de-ad64-4b71-aa41-4e89758424de",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
+      "id": "21514ca9-840e-44b9-a36d-04353f675d71",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "c57dc59d-b234-4e90-9de1-625cb6540124",
+      "id": "b98135da-0846-466d-a429-f156bdba72bf",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "112199a5-588b-4a20-8c73-b44af7aa0497",
-      "title": "Build Academic Roadmap",
-      "description": "As a Student, I want to add courses to my academic roadmap, so that I can plan my degree progression and graduate on time.\n\nAcceptance Criteria:\n- Student can search and select a course from the catalog.\n- Student can add the course to an Academic roadmap.\n- Added courses are displayed immediately in the roadmap.\n- The roadmap is saved successfully.\n- PASS: The selected course appears in the roadmap after saving.\n- FAIL: The course is not displayed or cannot be saved.",
-      "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
+      "id": "c472760b-88b4-405d-8531-89409659f092",
+      "title": "Security",
+      "description": "Protect student schedules and academic information from unauthorized access. Ensure that students can only view their own academic data.",
+      "groupId": "21514ca9-840e-44b9-a36d-04353f675d71",
       "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
       "priority": "High",
       "owner": ""
     },
     {
-      "id": "9180bebe-77ba-4ae2-94c5-a6d0f41c351b",
-      "title": "Drag and Drop Schedule Planning",
-      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can visualize my semester schedule before registration.\n\nAcceptance Criteria:\n- Student can drag a course from the course catalog.\n- Student can drop the course into a calendar slot.\n- The calendar updates immediately after the course is dropped.\n- The schedule remains visible after saving.\n- PASS: The course appears in the selected calendar slot.\n- FAIL: The course is not displayed correctly.",
-      "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
+      "id": "911e6790-77fa-4f95-b81f-5b285d73c04c",
+      "title": "Auditability",
+      "description": "Record all prerequisite override actions with advisor identity, timestamp, and justification to support auditing and compliance requirements.",
+      "groupId": "21514ca9-840e-44b9-a36d-04353f675d71",
       "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     },
     {
-      "id": "b5492fc9-7476-4295-a7ab-8eeab2580b4d",
-      "title": "Prerequisite Validation",
-      "description": "As a Student, I want the system to automatically validate course prerequisites, so that I do not accidentally select courses I am not eligible to take.\n\nAcceptance Criteria:\n- The system checks prerequisite requirements when a student adds a course.\n- A warning message is displayed if prerequisites are not satisfied.\n- Students can view which prerequisite is missing.\n- Courses with unmet prerequisites cannot be added unless an advisor override exists.\n- PASS: The system correctly identifies miss",
-      "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
+      "id": "8e02208e-1f92-4875-96a9-ae30f8a444dc",
+      "title": "Usability",
+      "description": "Provide an intuitive drag-and-drop academic planning experience that allows students to create and manage roadmaps with minimal training.",
+      "groupId": "21514ca9-840e-44b9-a36d-04353f675d71",
       "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": ""
-    },
-    {
-      "id": "6179b091-e373-44bf-a3aa-e4f3be331639",
-      "title": "Morning Class Warning",
-      "description": "As a Student, I want to receive a warning when selecting classes that start at 8:00 AM, so that I can make better scheduling decisions.\n\nAcceptance Criteria:\n- The system identifies classes that start at 8:00 AM.\n- A warning message is displayed before the class is added.\n- Students may continue or cancel the selection.\n- The warning does not prevent enrollment if the student confirms.\n- PASS: The warning appears whenever an 8:00 AM class is selected.\n- FAIL: No warning is displayed.",
-      "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": ""
-    },
-    {
-      "id": "a725b9b0-af60-4dfe-87b1-e13f926a3590",
-      "title": "Manual Prerequisite Override",
-      "description": "As an Advisor, I want to manually override prerequisite requirements, so that students with approved exceptions can enroll in courses.\n\nAcceptance Criteria:\n- Advisors can access the prerequisite override function.\n- The advisor must provide a justification before confirming the override.\n- The override action is recorded in the audit log.\n- The affected student can subsequently add the course.\n- PASS: The override is applied and logged successfully.\n- FAIL: The override is not logged or the stu",
-      "groupId": "b5b41e5a-498d-4468-871e-53cb7d1572f8",
-      "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
@@ -77,5 +57,4 @@
     "nfr2": "",
     "nfr3": ""
   }
-  
 }
