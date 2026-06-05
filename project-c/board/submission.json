@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-05T10:10:07.406Z",
+  "savedAt": "2026-06-05T10:12:06.258Z",
   "groups": [
     {
-      "id": "73c12a09-1929-4d3f-92da-4b6c42232c09",
+      "id": "190db23b-cd16-42df-9482-01194e8fc993",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "aaae5bc0-d6dd-47b7-a755-45cba4b19649",
+      "id": "bd74f805-6183-4c32-adb9-85c4ff715968",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "7c64d2c4-3def-4736-b9b0-55ed7dbc9ea3",
+      "id": "435ce840-9024-4f9a-8a9a-f0e299aab861",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -20,8 +20,8 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "",
-    "ambiguity2": "Requirement: \"The kitchen display system needs to be able to work offline for at least 10 minutes.\"\n\nWhy it is vague:\nThe requirement does not define which features remain available while offline, how orders are stored during the outage, or what happens if connectivity is unavailable for longer than 10 minutes.",
-    "conflictSolution": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict:\nStudents with allergies want menu items containing allergens to be completely hidden, while the Marketing Department wants to promote daily specials to as many students as possible through notifications and menu visibility.\n\nProposed Solution:\nThe system should respect allergy filter settings as the highest priority. Menu items containing allergens selected by the student are hidden from the menu and excluded from promotional notifications. Marketing campaigns may only target items that match a student's allergy preferences.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
