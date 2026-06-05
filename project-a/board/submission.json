@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-05T06:54:17.135Z",
+  "savedAt": "2026-06-05T06:57:13.708Z",
   "groups": [
     {
-      "id": "78cc5176-1382-4f23-9032-c2cb1730ff17",
+      "id": "fd02ea6f-97a3-461f-82e0-c8449d2cc6ff",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "5e1c18c3-46f9-4908-85ef-047acd62a6ac",
+      "id": "c3b7d4f9-2efb-43de-9628-5e3da55aa0f4",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "c1735a8a-e0c2-4676-9ce0-e81d31118653",
+      "id": "873c22c0-33de-4de7-be5b-83763992c775",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "bfca3596-852a-4d98-b1d0-8ff97a9dd257",
-      "title": "Drag and Drop Schedule Planning",
-      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can visualize my semester schedule before registration.\n\nAcceptance Criteria:\n- Student can drag a course from the catalog.\n- Student can drop the course into a calendar slot.\n- The calendar updates immediately.\n- The course remains visible after saving.\n- PASS: The course appears in the selected time slot.\n- FAIL: The course is not displayed correctly.",
-      "groupId": "5e1c18c3-46f9-4908-85ef-047acd62a6ac",
+      "id": "a3ffee2c-0783-4802-b3c0-176522feaded",
+      "title": "Prerequisite Validation",
+      "description": "As a Student, I want the system to automatically validate course prerequisites, so that I do not accidentally select courses I am not eligible to take.\n\nAcceptance Criteria:\n- The system checks prerequisite requirements when a student adds a course.\n- A warning message is displayed if prerequisites are not satisfied.\n- Students can view which prerequisite is missing.\n- Courses with unmet prerequisites cannot be added to the roadmap unless an advisor override exists.\n- PASS: The system correctly",
+      "groupId": "c3b7d4f9-2efb-43de-9628-5e3da55aa0f4",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
