@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-05T10:25:01.811Z",
+  "savedAt": "2026-06-05T10:25:58.811Z",
   "groups": [
     {
-      "id": "5ef877c4-42bb-4b0a-9604-37e334e845f0",
+      "id": "2208fe85-1979-42c1-a975-436c67bab899",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "ad63fabb-a28c-49c8-8272-a32a133dd333",
+      "id": "4fb7e2d5-4eb7-4049-875b-af152d5d838c",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "28dda26f-366e-4386-9b51-8ad8d64936f7",
+      "id": "6f46a471-f1b7-434d-91b8-1802ae17f86f",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "0a3af57c-9a20-40f3-b3dd-633982fed08e",
-      "title": "Offline Kitchen Display",
-      "description": "As a Kitchen Staff Member, I want the kitchen display system to continue operating during internet outages, so that order preparation is not interrupted.\n\nAcceptance Criteria:\n- The display system continues functioning offline for at least 10 minutes.\n- Orders are stored locally during outages.\n- Data synchronizes automatically when connectivity returns.\n- PASS: Orders remain accessible during the outage.\n- FAIL: Orders are lost when the connection is interrupted.",
-      "groupId": "ad63fabb-a28c-49c8-8272-a32a133dd333",
+      "id": "8b182f58-61d4-4c2c-b0e3-d41e0642e793",
+      "title": "Promotional Notifications",
+      "description": "As a Marketing Administrator, I want to send promotional notifications to students, so that I can increase sales of daily specials.\n\nAcceptance Criteria:\n- Administrators can create promotional notifications.\n- Notifications can be scheduled for delivery.\n- Notifications are delivered to eligible users.\n- PASS: Scheduled notifications are delivered successfully.\n- FAIL: Notifications are not sent at the scheduled time.",
+      "groupId": "4fb7e2d5-4eb7-4049-875b-af152d5d838c",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
