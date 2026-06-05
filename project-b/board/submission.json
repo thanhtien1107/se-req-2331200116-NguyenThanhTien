@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-05T09:57:00.174Z",
+  "savedAt": "2026-06-05T10:03:37.461Z",
   "groups": [
     {
       "id": "439fb480-dd96-474f-82b1-aa56607212ff",
@@ -100,11 +100,11 @@
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "Requirement: \"We want the app to suggest Safe Exchange Zones for all physical meetups.\"\n\nWhy it is vague:\nThe requirement does not define how safe exchange zones are selected, how many locations should be suggested, or whether users are required to choose from the suggested locations. Without clear criteria, developers cannot implement the feature consistently.",
+    "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\"\n\nWhy it is vague:\nThe requirement does not define auction rules such as bidding duration, minimum bid increments, reserve prices, winner selection, or how ties are handled. These missing details make implementation unclear.",
+    "conflictSolution": "Conflict:\nThe Student Union President wants the marketplace to collect a 2% transaction fee to support club activities. However, the University Legal Team states that the university cannot process payments or handle money transfers between students.\n\nProposed Solution:\nThe platform should not process payments directly. Instead, students complete payments using external services such as Venmo or cash. The marketplace may provide links to approved third-party payment providers, while any optional service fee is handled outside the university-operated platform through a separate Student Union process.",
+    "nfr1": "Security - Only users with a valid university .edu email address may register and access the marketplace.",
+    "nfr2": "Safety - The system should encourage secure transactions by requiring users to select approved safe exchange zones before arranging meetups.",
+    "nfr3": "Usability - Users should be able to create item listings quickly using barcode scanning with minimal manual data entry."
   }
 }
