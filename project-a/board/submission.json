@@ -1,27 +1,27 @@
 {
-  "savedAt": "2026-06-05T06:19:40.617Z",
+  "savedAt": "2026-06-05T06:28:29.872Z",
   "groups": [
     {
-      "id": "cc4146f7-65de-42c2-a41d-be65b16f1c86",
+      "id": "b073d6f3-8e79-423a-a985-5b27beebe2e3",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "4b9db080-ca93-47f9-b672-71733ec99475",
+      "id": "c3e4306d-b8ee-4a95-8159-4fb0d8656f24",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "4aa8a2a1-5345-4d5b-bf14-6e1f4618d921",
+      "id": "7ce29c30-1925-4ba0-ac6d-0d97030695ba",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: \"I want the app to warn me if I'm choosing a class that starts at 8:00 AM.\"\nWhy it is vague: It lacks clear system boundaries and specific metrics. It does not define what the \"warning\" entails—whether it is a hard system block preventing enrollment, or a dismissible visual alert that the user can bypass.",
-    "ambiguity2": "Requirement: \"I want to be able to override the system manually if a student has special permission.\"\nWhy it is vague: The term \"special permission\" is undefined. It does not specify the criteria for this permission, who has the authority to grant it, or how the system logically verifies this status before allowing the override.",
-    "conflictSolution": "",
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict:\nThe Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan their academic path several years in advance, even when future class availability is unknown.\n\nProposed Solution:\nThe system should support two planning modes. In Long-Term Planning Mode, students may add future courses regardless of current seat availability. In Registration Mode, the system must validate real-time enrollment data and prevent registration for classes that are already full. This allows strategic degree planning while maintaining accurate enrollment controls.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
