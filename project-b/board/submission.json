@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-05T09:54:02.971Z",
+  "savedAt": "2026-06-05T09:57:00.174Z",
   "groups": [
     {
       "id": "439fb480-dd96-474f-82b1-aa56607212ff",
@@ -65,6 +65,36 @@
       "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
       "status": "todo",
       "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "26caeb6b-c091-4674-a04c-c5f10c6315c4",
+      "title": "Security",
+      "description": "Restrict marketplace access to verified university users through .edu email authentication.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "472cedb7-c0a3-4101-a5f9-16b52f68226e",
+      "title": "Safety",
+      "description": "Promote secure transactions by enforcing approved safe exchange zones for physical meetups.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "821d8662-a958-4db8-9d0c-e10c3ff5eb59",
+      "title": "Usability",
+      "description": "Reduce listing effort through barcode scanning and streamlined item creation workflows.",
+      "groupId": "a665158e-49ea-4d36-a456-d0d86c2e8a84",
+      "status": "todo",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
