@@ -1,48 +1,98 @@
 {
-  "savedAt": "2026-06-05T10:29:22.526Z",
+  "savedAt": "2026-06-05T10:34:24.040Z",
   "groups": [
     {
-      "id": "711487e3-eb6a-43b0-a542-19f67bafe10f",
+      "id": "ceeaa3b6-c5e9-44a0-a46b-e5365bd5b19f",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "id": "06f355ae-38c7-4243-9281-298d3f7c24b1",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "635462a1-eca5-4904-9cb8-397e8501aa0a",
+      "id": "de1be640-195f-484a-a018-bce79819bcb9",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "4450d55b-3071-42fd-af22-c910a0b411f2",
+      "id": "2497596c-11c7-4a61-8e1d-86ebb079a6f3",
+      "title": "Mobile Food Ordering",
+      "description": "As a Student, I want to order food from my phone, so that I can avoid waiting in long cafeteria lines.\n\nAcceptance Criteria:\n- Students can browse the menu.\n- Students can add items to an order.\n- Students can submit an order from their phone.\n- The order is sent to the kitchen display system.\n- PASS: The submitted order appears on the kitchen display.\n- FAIL: The order is not received by the kitchen.",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "5fcd04b6-7e91-4dff-9a98-d4aed95630dc",
+      "title": "Allergy Menu Filtering",
+      "description": "As a Student with allergies, I want to filter menu items by allergens, so that I only see food that is safe for me.\n\nAcceptance Criteria:\n- Students can select allergen filters.\n- Items containing selected allergens are hidden.\n- Filter settings remain active during the session.\n- PASS: Allergic items do not appear in the menu.\n- FAIL: Items containing filtered allergens remain visible.",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "c661b023-8676-493b-969b-543294c52bd6",
+      "title": "Sold Out Item Management",
+      "description": "As a Chef, I want to mark menu items as Sold Out instantly, so that students cannot order unavailable food.\n\nAcceptance Criteria:\n- Staff can mark an item as Sold Out.\n- Sold Out items are immediately removed from ordering.\n- Students can still view the item with a Sold Out label.\n- PASS: Users cannot order Sold Out items.\n- FAIL: Users can continue ordering unavailable items.",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "9a22aeaa-f645-49fc-a45c-023d27314ac1",
+      "title": "Offline Kitchen Display",
+      "description": "As a Kitchen Staff Member, I want the kitchen display system to continue operating during internet outages, so that order preparation is not interrupted.\n\nAcceptance Criteria:\n- The display system continues functioning offline for at least 10 minutes.\n- Orders are stored locally during outages.\n- Data synchronizes automatically when connectivity returns.\n- PASS: Orders remain accessible during the outage.\n- FAIL: Orders are lost when the connection is interrupted.",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "ade895bc-bd29-4a25-b37d-82dddfaffead",
+      "title": "Promotional Notifications",
+      "description": "As a Marketing Administrator, I want to send promotional notifications to students, so that I can increase sales of daily specials.\n\nAcceptance Criteria:\n- Administrators can create promotional notifications.\n- Notifications can be scheduled for delivery.\n- Notifications are delivered to eligible users.\n- PASS: Scheduled notifications are delivered successfully.\n- FAIL: Notifications are not sent at the scheduled time.",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "0c78e2e3-1005-402c-b89e-ba28209a59b0",
       "title": "Reliability",
       "description": "Ensure the kitchen display system continues operating during temporary internet outages and synchronizes data automatically after reconnection.",
-      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
       "status": "todo",
       "type": "Epic",
       "priority": "Medium",
       "owner": ""
     },
     {
-      "id": "cccb2b15-e5f8-4501-9295-677576f8052a",
+      "id": "72f77f82-3572-4ab3-b98f-84d1c85d65c6",
       "title": "Usability",
       "description": "Provide a fast and intuitive mobile ordering experience that minimizes the number of steps required to place an order.",
-      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
       "status": "todo",
       "type": "Epic",
       "priority": "Medium",
       "owner": ""
     },
     {
-      "id": "856af883-09e2-4ee6-b8d5-36a1b09d9249",
+      "id": "1ead4bfa-4835-4f8c-ba91-5c4d3c56179b",
       "title": "Performance",
       "description": "Ensure menu updates such as Sold Out status changes are propagated to users immediately.",
-      "groupId": "1e6fc039-5956-41d8-a949-5cd805799448",
+      "groupId": "06f355ae-38c7-4243-9281-298d3f7c24b1",
       "status": "todo",
       "type": "Epic",
       "priority": "Medium",
@@ -50,11 +100,11 @@
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy it is vague:\nThe requirement does not specify which students should receive notifications, whether users can opt out, how frequently notifications may be sent, or what qualifies as a discount offer.",
+    "ambiguity2": "Requirement: \"The kitchen display system needs to be able to work offline for at least 10 minutes.\"\n\nWhy it is vague:\nThe requirement does not define which features remain available while offline, how orders are stored during the outage, or what happens if connectivity is unavailable for longer than 10 minutes.",
+    "conflictSolution": "Conflict:\nStudents with allergies want menu items containing allergens to be completely hidden, while the Marketing Department wants to promote daily specials to as many students as possible through notifications and menu visibility.\n\nProposed Solution:\nThe system should respect allergy filter settings as the highest priority. Menu items containing allergens selected by the student are hidden from the menu and excluded from promotional notifications. Marketing campaigns may only target items that match a student's allergy preferences.",
+    "nfr1": "Reliability - The kitchen display system must continue operating for at least 10 minutes during an internet outage and synchronize data automatically when connectivity is restored.",
+    "nfr2": "Usability - Students should be able to place an order within a few steps using a simple and intuitive mobile interface.",
+    "nfr3": "Performance - Menu updates such as Sold Out status changes must be reflected immediately to all users."
   }
 }
