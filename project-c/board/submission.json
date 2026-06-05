@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-05T10:15:28.395Z",
+  "groups": [
+    {
+      "id": "2d5f9631-8238-4f4a-9d8f-7d196e0ef57e",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "10e558af-fc7b-4486-98f2-ac0d7c01744e",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "ffb00445-17c5-4b54-8e8a-67382cd990ea",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "Reliability - The kitchen display system must continue operating for at least 10 minutes during an internet outage and synchronize data automatically when connectivity is restored.",
+    "nfr2": "Usability - Students should be able to place an order within a few steps using a simple and intuitive mobile interface.",
+    "nfr3": "Performance - Menu updates such as Sold Out status changes must be reflected immediately to all users."
+  }
+}
