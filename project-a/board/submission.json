@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-05T06:11:20.897Z",
+  "savedAt": "2026-06-05T06:19:40.617Z",
   "groups": [
     {
-      "id": "f884d116-60d5-4dfc-bdb0-e4cae4545711",
+      "id": "cc4146f7-65de-42c2-a41d-be65b16f1c86",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "1fd0c88b-a1bf-48fc-88df-27ee078e4278",
+      "id": "4b9db080-ca93-47f9-b672-71733ec99475",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "a2a3e3c1-73e8-43dc-8186-20710be53510",
+      "id": "4aa8a2a1-5345-4d5b-bf14-6e1f4618d921",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
+    "ambiguity1": "Requirement: \"I want the app to warn me if I'm choosing a class that starts at 8:00 AM.\"\nWhy it is vague: It lacks clear system boundaries and specific metrics. It does not define what the \"warning\" entails—whether it is a hard system block preventing enrollment, or a dismissible visual alert that the user can bypass.",
+    "ambiguity2": "Requirement: \"I want to be able to override the system manually if a student has special permission.\"\nWhy it is vague: The term \"special permission\" is undefined. It does not specify the criteria for this permission, who has the authority to grant it, or how the system logically verifies this status before allowing the override.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
