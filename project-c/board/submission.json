@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-05T10:15:28.395Z",
+  "savedAt": "2026-06-05T10:18:07.766Z",
   "groups": [
     {
-      "id": "2d5f9631-8238-4f4a-9d8f-7d196e0ef57e",
+      "id": "9a164249-e7f0-4754-81cd-7a4bb4f8998a",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "10e558af-fc7b-4486-98f2-ac0d7c01744e",
+      "id": "d529b956-6f7a-4174-9d57-6a11739e17db",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "ffb00445-17c5-4b54-8e8a-67382cd990ea",
+      "id": "9b689f0c-f00c-435c-99c3-cb10268e96d4",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "04a8da2d-e06b-4a67-8233-f18703bf8bf3",
+      "title": "Mobile Food Ordering",
+      "description": "As a Student, I want to order food from my phone, so that I can avoid waiting in long cafeteria lines.\n\nAcceptance Criteria:\n- Students can browse the menu.\n- Students can add items to an order.\n- Students can submit an order from their phone.\n- The order is sent to the kitchen display system.\n- PASS: The submitted order appears on the kitchen display.\n- FAIL: The order is not received by the kitchen.",
+      "groupId": "d529b956-6f7a-4174-9d57-6a11739e17db",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "Reliability - The kitchen display system must continue operating for at least 10 minutes during an internet outage and synchronize data automatically when connectivity is restored.",
-    "nfr2": "Usability - Students should be able to place an order within a few steps using a simple and intuitive mobile interface.",
-    "nfr3": "Performance - Menu updates such as Sold Out status changes must be reflected immediately to all users."
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
