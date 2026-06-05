@@ -1,31 +1,31 @@
 {
-  "savedAt": "2026-06-05T06:46:18.993Z",
+  "savedAt": "2026-06-05T06:54:17.135Z",
   "groups": [
     {
-      "id": "1dc5cefe-ecbd-4345-9f5d-7779f44a3490",
+      "id": "78cc5176-1382-4f23-9032-c2cb1730ff17",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "dc3f891e-cc40-4337-b082-c79dc117263a",
+      "id": "5e1c18c3-46f9-4908-85ef-047acd62a6ac",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6485a113-37b9-4d06-b7fc-9d71d77f9e6e",
+      "id": "c1735a8a-e0c2-4676-9ce0-e81d31118653",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "b34176f4-70f5-4a5d-ae31-feeaaf22bdba",
-      "title": "Build Academic Roadmap",
-      "description": "Acceptance Criteria:\n- Student can search and select a course from the catalog.\n- Student can add the course to a roadmap.\n- Added courses are displayed in the roadmap immediately.\n- The roadmap is saved successfully.\n- PASS: The selected course appears in the roadmap after saving.\n- FAIL: The course does not appear or is not saved.",
-      "groupId": "dc3f891e-cc40-4337-b082-c79dc117263a",
+      "id": "bfca3596-852a-4d98-b1d0-8ff97a9dd257",
+      "title": "Drag and Drop Schedule Planning",
+      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can visualize my semester schedule before registration.\n\nAcceptance Criteria:\n- Student can drag a course from the catalog.\n- Student can drop the course into a calendar slot.\n- The calendar updates immediately.\n- The course remains visible after saving.\n- PASS: The course appears in the selected time slot.\n- FAIL: The course is not displayed correctly.",
+      "groupId": "5e1c18c3-46f9-4908-85ef-047acd62a6ac",
       "status": "todo",
       "type": "User Story",
-      "priority": "High",
+      "priority": "Medium",
       "owner": ""
     }
   ],
