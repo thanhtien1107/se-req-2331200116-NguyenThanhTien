@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-05T10:08:35.733Z",
+  "savedAt": "2026-06-05T10:10:07.406Z",
   "groups": [
     {
-      "id": "c988be44-cb31-4afd-88fa-0368fdbb70f9",
+      "id": "73c12a09-1929-4d3f-92da-4b6c42232c09",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "6d91371b-ff6c-4e4b-b33e-3192ca634a4b",
+      "id": "aaae5bc0-d6dd-47b7-a755-45cba4b19649",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "1d3dab41-9a9b-4a38-bc41-5f12dd8b7f01",
+      "id": "7c64d2c4-3def-4736-b9b0-55ed7dbc9ea3",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy it is vague:\nThe requirement does not specify which students should receive notifications, whether users can opt out, how frequently notifications may be sent, or what qualifies as a discount offer.",
-    "ambiguity2": "",
+    "ambiguity1": "",
+    "ambiguity2": "Requirement: \"The kitchen display system needs to be able to work offline for at least 10 minutes.\"\n\nWhy it is vague:\nThe requirement does not define which features remain available while offline, how orders are stored during the outage, or what happens if connectivity is unavailable for longer than 10 minutes.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
