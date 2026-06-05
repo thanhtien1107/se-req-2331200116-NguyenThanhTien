@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-05T10:18:07.766Z",
+  "savedAt": "2026-06-05T10:22:04.587Z",
   "groups": [
     {
-      "id": "9a164249-e7f0-4754-81cd-7a4bb4f8998a",
+      "id": "368df399-aff3-4c1e-a4ba-61660c9f37f2",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "d529b956-6f7a-4174-9d57-6a11739e17db",
+      "id": "38932125-dd8d-4582-94df-932862335214",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "9b689f0c-f00c-435c-99c3-cb10268e96d4",
+      "id": "60695989-7661-403d-ac24-2adab8fd4b5e",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "04a8da2d-e06b-4a67-8233-f18703bf8bf3",
-      "title": "Mobile Food Ordering",
-      "description": "As a Student, I want to order food from my phone, so that I can avoid waiting in long cafeteria lines.\n\nAcceptance Criteria:\n- Students can browse the menu.\n- Students can add items to an order.\n- Students can submit an order from their phone.\n- The order is sent to the kitchen display system.\n- PASS: The submitted order appears on the kitchen display.\n- FAIL: The order is not received by the kitchen.",
-      "groupId": "d529b956-6f7a-4174-9d57-6a11739e17db",
+      "id": "8bcfdb0c-ed2a-471f-b3fe-0cf644ae1391",
+      "title": "Allergy Menu Filtering",
+      "description": "As a Student with allergies, I want to filter menu items by allergens, so that I only see food that is safe for me.\n\nAcceptance Criteria:\n- Students can select allergen filters.\n- Items containing selected allergens are hidden.\n- Filter settings remain active during the session.\n- PASS: Allergic items do not appear in the menu.\n- FAIL: Items containing filtered allergens remain visible.",
+      "groupId": "38932125-dd8d-4582-94df-932862335214",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
