@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-05T10:08:35.733Z",
+  "groups": [
+    {
+      "id": "c988be44-cb31-4afd-88fa-0368fdbb70f9",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "6d91371b-ff6c-4e4b-b33e-3192ca634a4b",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "1d3dab41-9a9b-4a38-bc41-5f12dd8b7f01",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy it is vague:\nThe requirement does not specify which students should receive notifications, whether users can opt out, how frequently notifications may be sent, or what qualifies as a discount offer.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
