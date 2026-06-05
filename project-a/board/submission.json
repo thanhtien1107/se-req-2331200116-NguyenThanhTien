@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-05T06:11:20.897Z",
+  "groups": [
+    {
+      "id": "f884d116-60d5-4dfc-bdb0-e4cae4545711",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "1fd0c88b-a1bf-48fc-88df-27ee078e4278",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "a2a3e3c1-73e8-43dc-8186-20710be53510",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
