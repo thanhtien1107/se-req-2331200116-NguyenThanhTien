@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-05T10:22:04.587Z",
+  "savedAt": "2026-06-05T10:23:35.413Z",
   "groups": [
     {
-      "id": "368df399-aff3-4c1e-a4ba-61660c9f37f2",
+      "id": "976bfcd8-e975-41d5-9786-023b99b0948d",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "38932125-dd8d-4582-94df-932862335214",
+      "id": "164e2b61-41d6-4bb4-aa9d-52b2ab3ab72d",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "60695989-7661-403d-ac24-2adab8fd4b5e",
+      "id": "07491f3c-be1d-42f9-ba22-9aece156a0b6",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "8bcfdb0c-ed2a-471f-b3fe-0cf644ae1391",
-      "title": "Allergy Menu Filtering",
-      "description": "As a Student with allergies, I want to filter menu items by allergens, so that I only see food that is safe for me.\n\nAcceptance Criteria:\n- Students can select allergen filters.\n- Items containing selected allergens are hidden.\n- Filter settings remain active during the session.\n- PASS: Allergic items do not appear in the menu.\n- FAIL: Items containing filtered allergens remain visible.",
-      "groupId": "38932125-dd8d-4582-94df-932862335214",
+      "id": "03ec10b2-163f-46e7-b7a2-3e49b7e2a973",
+      "title": "Sold Out Item Management",
+      "description": "As a Chef, I want to mark menu items as Sold Out instantly, so that students cannot order unavailable food.\n\nAcceptance Criteria:\n- Staff can mark an item as Sold Out.\n- Sold Out items are immediately removed from ordering.\n- Students can still view the item with a Sold Out label.\n- PASS: Users cannot order Sold Out items.\n- FAIL: Users can continue ordering unavailable items.",
+      "groupId": "164e2b61-41d6-4bb4-aa9d-52b2ab3ab72d",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
