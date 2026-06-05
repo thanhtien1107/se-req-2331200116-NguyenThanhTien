@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-05T07:34:31.491Z",
+  "savedAt": "2026-06-05T07:36:11.681Z",
   "groups": [
     {
-      "id": "90a3264a-8207-44ce-bfd8-43c2d81ad7c1",
+      "id": "a2ec964d-cbc1-4af7-9504-4bd309218e62",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "24ee8d82-7622-4940-a0f2-561da13d13fa",
+      "id": "ca2a003f-1568-4f12-b50f-6de15db497e3",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "04565393-c251-46f8-a37e-da2030cd88ad",
+      "id": "0dea06bd-6ad2-457e-8ee7-c17ce9b3de3a",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: \"We want the app to suggest Safe Exchange Zones for all physical meetups.\"\n\nWhy it is vague:\nThe requirement does not define how safe exchange zones are selected, how many locations should be suggested, or whether users are required to choose from the suggested locations. Without clear criteria, developers cannot implement the feature consistently.",
-    "ambiguity2": "",
+    "ambiguity1": "",
+    "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\"\n\nWhy it is vague:\nThe requirement does not define auction rules such as bidding duration, minimum bid increments, reserve prices, winner selection, or how ties are handled. These missing details make implementation unclear.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
